@@ -1,0 +1,218 @@
+/* ここから下に記載していく */
+body {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size:  24px;
+    font-weight: bold;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+h3 {
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+h4 {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+h5 {
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.header-logo {
+    margin: auto 0;
+}
+.header-navi ul {
+    display: flex;   
+}
+.header-navi li {
+    font-size: 21px;
+    margin: 50px 25px;
+}
+
+.title-image {
+    width: 100%;
+}
+.title {
+    position: relative;
+}
+.title-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #222222;
+}
+.title-text p {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+#about {
+    background-color: #fafafa;
+    color: #222222;
+}
+#about h2 {
+    color: yellow;
+}
+.about-text p {
+    padding-bottom: 40px;
+}
+.about-text {
+    margin-bottom: 40px;
+}
+.about-images {
+    display: flex;
+}
+.about-images img {
+    width: 25%;
+}
+.course-contents-content {
+    display: flex;
+}
+.course-contents-content img {
+    width: 50%;
+}
+.course-contents-content-textbox {
+    width: 50%;
+    text-align: left;
+    background-color: #fafafa;
+    padding-top: 120px;
+}
+.course-contents-content-textbox-right {
+    padding-left: 50px;
+    width: 480px;
+}
+.course-contents-content-textbox-left {
+    width: 480px;
+    margin-left:auto ;
+}
+.news-contents {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.news-contents p {
+    font-size: 14px;
+}
+.news-contents-content {
+    margin:0px 15px;
+    width: 300px;
+}
+.news-contents-content:hover {
+    opacity: 0.7;
+}
+.news-button {
+    font-size: 18px;
+    width: 300px;
+    height: 60px;
+    background-color: yellow;
+    color: white;
+    border: none;
+    margin-bottom: 60px;
+}
+.news-button:hover {
+    opacity: 0.5;
+}
+#access {
+    background-color: #fafafa;
+}
+#access iframe {
+    width: 100%;
+    height: 200px;
+}
+.access-companyinfomation {
+    margin: 60px auto;
+}
+.access-companyinfomation tr {
+    line-height: 50px;
+    text-align: left;
+}
+.access-companyinfomation td {
+    padding-right: 30px;
+}
+.contact-contents p {
+    margin-bottom: 30px;
+}
+.contact-contents {
+    margin-bottom: 70px;
+}
+#contact table {
+    margin: 0 auto;
+    text-align: left;
+    line-height: 150%;
+}
+.form-title {
+    width: 240px;
+    box-sizing: border-box;
+    border: 2px solid #bfbfbf;
+    border-left: none;
+    padding: 8px 64px 8px 16px;
+}
+.form-parts {
+    width: 400px;
+    box-sizing: border-box;
+    border: 2px solid #bfbfbf;
+    border-right: none;
+    padding: 8px 0 8px 8px;
+}
+.form-parts input[type="text"] {
+    width: 328px;
+    height: 36px;
+}
+.form-parts select {
+    width: 335px;
+    height: 36px;
+}
+.checkbox {
+    margin-bottom: 24px;
+    font-size: 14px;
+}
+.checkbox input[type="checkbox"] {
+    margin-right: 20px;
+}
+.form-parts textarea {
+    width: 328px;
+    vertical-align: top;
+}
+.form-submit {
+    margin-top: 30px;
+    margin-bottom: 140px;
+    width: 300px;
+    font-size: 18px;
+    padding: 20px 0;
+    background-color: yellow;
+    color: #fafafa;
+    border: none;
+}
+.form-submit:hover {
+    opacity: 0.5;
+}
+footer p {
+    background-color: #707070;
+    color: #ffffff;
+    padding: 30px 0;
+}
